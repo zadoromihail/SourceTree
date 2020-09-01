@@ -12,10 +12,12 @@ class ViewController: UIViewController {
 let student = Student()
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hello world")
-        
         student.age = 20
         student.name = "Igor"
+        print("Hello world")
+        
+        print("Student name is \(String(describing: student.name)), Student age is \(String(describing: student.age))")
+       
     }
     func printer() {
     print("something")
