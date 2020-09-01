@@ -19,4 +19,8 @@ class ViewController: UIViewController {
     }
 
 }
+class Student {
+    var name : String?
+    var age : Int?
+}
 
