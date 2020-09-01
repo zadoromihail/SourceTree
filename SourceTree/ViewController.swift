@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+let student = Student()
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello world")
+        
+        student.age = 20
+        student.name = "Igor"
     }
     func printer() {
     print("something")
